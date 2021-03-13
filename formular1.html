@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>formular1</title>
+  </head>
+  <body>
+    <form>
+        Nume :
+        <input type="text" name="fname"><br>
+        Prenume:
+        <input type="text" name="lname"><br><br>
+        Sex: Masculin <input type="radio"> Feminin <input type="radio"><br><br>
+        Studii:<input list="studii" name="studii">
+        <datalist id="studii">
+          <option value="faculate">
+          <option value="liceu">
+          <option value="gimnaziale">
+          <option value="primare">
+        </datalist>
+        <br><br>
+
+        Accesati internetul de la:<br>
+        Serviciu <input type="checkbox" name="" value=""><br>
+        Acasa <input type="checkbox" name="" value=""><br>
+        Internet caffe <input type="checkbox"name="" value=""><br><br>
+        Observatii:<br>
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+        <button>Submit</button><button>Delete</button>
+    </form>
+  </body>
+</html>
